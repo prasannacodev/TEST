@@ -1,0 +1,21 @@
+ .BOX{
+            width:200px;
+            /* height:200px; */
+            background-color: blue;
+            margin:0 auto;
+            padding:20px;
+            border:5px solid black;
+            box-sizing: border-box;
+            box-shadow: 0 0 10px rgba(0,0,0,0.5);
+            color: white;
+            align-self: center;
+        }
+        .BOX:hover{
+            background-color:#00008B;
+            width:250px;
+            transition:0.4s ease;
+        }
+        /* The total width of box is 250px */
+        /* The difference in width of add the box-sizing: border-box;
+         It act like margin and padding act in inside text not on the box */
+         /*No,the text not overflow*/
